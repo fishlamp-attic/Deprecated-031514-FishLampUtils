@@ -1,5 +1,5 @@
 //
-//	NSFileManager+FLExtras
+//	NSFileManager+FishLamp
 //	FishLamp
 //
 //	Created by Mike Fullerton on 6/20/09.
@@ -7,11 +7,11 @@
 //  The FishLamp Framework is released under the MIT License: http://fishlamp.com/license 
 //
 
-#import "FishLampMinimum.h"
+#import "FishLampCore.h"
 
 typedef void (^FLFileManagerVisitor)(NSString* filePath, BOOL* stop);
 
-@interface	NSFileManager (FLExtras)
+@interface	NSFileManager (FishLamp)
 
 + (BOOL) getFileSize:(NSString*) filePath 
 	outSize:(unsigned long long*) outSize
