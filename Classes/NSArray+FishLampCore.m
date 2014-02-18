@@ -8,7 +8,7 @@
 //
 
 #import "NSArray+FishLampCore.h"
-#import "NSString+FishLampCore.h"
+#import "NSString+FishLamp.h"
 #import "FishLampAssertions.h"
 #import "NSString+FishLamp.h"
 
